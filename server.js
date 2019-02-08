@@ -5,4 +5,4 @@ const port = process.env.PORT || 80
 
 const server = http.createServer(app)
 
-server.listen(port, () => console.log(`The app started at port ${port}!`))
+server.listen(port, () => console.log(`The app started at  http://localhost:${port}`))
