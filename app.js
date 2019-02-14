@@ -1,10 +1,11 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const path = require('path')
 const hbs = require('express-handlebars')
 
-const viewRoutes = require('./routes')
-const apiRoutes = require('./api')
+const viewRoutes = require('./routes/views')
+const apiRoutes = require('./routes/api')
 
 app.engine(
   'hbs',
